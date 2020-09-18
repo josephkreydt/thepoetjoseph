@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+  padding-top: .7em;
+  padding-bottom: .5em;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.heading-poems {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7em;
+}
+
+.text-poems {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.col {
+    text-align: center;
+    padding: 1em;
+}
+
+/* sm */
+.row {
+    width: 80%;
+    height: auto;
+}
+/* md */
+@media (min-width: 768px) {
+    .row {
+        width: 60%;
+    }
+}
+/* lg */
+@media (min-width: 992px) {
+    .row {
+        width: 45%;
+    }
+}
+/* xl */
+@media (min-width: 1200px) {
+    .row {
+        width: 40%;
+    }
+}
+
+/* sm */
+.img-main {
+    width: 80%;
+    height: auto;
+    padding-top: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* md */
+@media (min-width: 768px) {
+    .img-main {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+/* lg */
+@media (min-width: 992px) {
+    .img-main {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+/* xl */
+@media (min-width: 1200px) {
+    .img-main {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
